@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.notehub.ui.Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_editNotesFragment"
+            app:destination="@id/editNotesFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_createNotesFragments"
+            app:destination="@id/createNotesFragments" />
+    </fragment>
+    <fragment
+        android:id="@+id/editNotesFragment"
+        android:name="com.example.notehub.ui.Fragment.EditNotesFragment"
+        android:label="fragment_edit_notes"
+        tools:layout="@layout/fragment_edit_notes" >
+        <action
+            android:id="@+id/action_editNotesFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <argument
+            android:name="data"
+            app:argType="com.example.notehub.model.Note" />
+    </fragment>
+    <fragment
+        android:id="@+id/createNotesFragments"
+        android:name="com.example.notehub.ui.Fragment.CreateNotesFragments"
+        android:label="fragment_create_notes_fragments"
+        tools:layout="@layout/fragment_create_notes_fragments" >
+        <action
+            android:id="@+id/action_createNotesFragments_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

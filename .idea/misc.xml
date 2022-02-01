@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/NoteHub/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable-v24/no_btn.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable-v24/red_dot.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable-v24/yellow_dot.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable/btn_filter_shapte.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable/edt_txt_shape.xml" value="0.176" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable/green_dot.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable/ic_baseline_done_24.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable/ic_liste.xml" value="0.24270833333333333" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/drawable/yes_btn.xml" value="0.35520833333333335" />
+        <entry key="..\:/NoteHub/app/src/main/res/layout/activity_main.xml" value="0.33489583333333334" />
+        <entry key="..\:/NoteHub/app/src/main/res/layout/activity_splash_screen.xml" value="0.22239583333333332" />
+        <entry key="..\:/NoteHub/app/src/main/res/layout/dialog_delet.xml" value="0.33489583333333334" />
+        <entry key="..\:/NoteHub/app/src/main/res/layout/fragment_create_notes_fragments.xml" value="0.33489583333333334" />
+        <entry key="..\:/NoteHub/app/src/main/res/layout/fragment_edit_notes.xml" value="0.33489583333333334" />
+        <entry key="..\:/NoteHub/app/src/main/res/layout/fragment_home.xml" value="0.33489583333333334" />
+        <entry key="..\:/NoteHub/app/src/main/res/layout/item_note.xml" value="0.33489583333333334" />
+        <entry key="..\:/NoteHub/app/src/main/res/menu/menu_show.xml" value="0.33489583333333334" />
+        <entry key="..\:/NoteHub/app/src/main/res/menu/search_menu.xml" value="0.33489583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
